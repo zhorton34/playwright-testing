@@ -1,0 +1,36 @@
+{
+  "version": "4",
+  "specifiers": {
+    "npm:@playwright/test@^1.48.1": "1.48.1",
+    "npm:playwright@^1.48.1": "1.48.1"
+  },
+  "npm": {
+    "@playwright/test@1.48.1": {
+      "integrity": "sha512-s9RtWoxkOLmRJdw3oFvhFbs9OJS0BzrLUc8Hf6l2UdCNd1rqeEyD4BhCJkvzeEoD1FsK4mirsWwGerhVmYKtZg==",
+      "dependencies": [
+        "playwright"
+      ]
+    },
+    "fsevents@2.3.2": {
+      "integrity": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
+    },
+    "playwright-core@1.48.1": {
+      "integrity": "sha512-Yw/t4VAFX/bBr1OzwCuOMZkY1Cnb4z/doAFSwf4huqAGWmf9eMNjmK7NiOljCdLmxeRYcGPPmcDgU0zOlzP0YA=="
+    },
+    "playwright@1.48.1": {
+      "integrity": "sha512-j8CiHW/V6HxmbntOfyB4+T/uk08tBy6ph0MpBXwuoofkSnLmlfdYNNkFTYD6ofzzlSqLA1fwH4vwvVFvJgLN0w==",
+      "dependencies": [
+        "fsevents",
+        "playwright-core"
+      ]
+    }
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:@playwright/test@^1.48.1",
+        "npm:playwright@^1.48.1"
+      ]
+    }
+  }
+}

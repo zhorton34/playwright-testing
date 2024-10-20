@@ -1,0 +1,11 @@
+{
+	"recommendations": [
+		"ms-playwright.playwright",
+		"formulahendry.docker-extension-pack",
+		"ms-azuretools.vscode-docker",
+		"denoland.vscode-deno",
+		"github.vscode-github-actions",
+		"Supabase.vscode-supabase-extension",
+		"ms-vscode.js-debug-companion"
+	]
+}

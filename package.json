@@ -1,0 +1,19 @@
+{
+  "name": "@pioneer/nv-ui",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "playwright": "playwright",
+    "playwright:deps": "playwright install --with-deps",
+    "playwright:test": "playwright test --config=playwright.config.ts",
+    "playwright:test.ui": "playwright test --ui --config=playwright.config.ts",
+    "playwright:test.report": "playwright show-report"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.48.1",
+    "playwright": "^1.48.1"
+  }
+}
